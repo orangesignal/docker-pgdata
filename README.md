@@ -1,1 +1,1 @@
-# docker-pgdata
+# PostgreSQL data container
