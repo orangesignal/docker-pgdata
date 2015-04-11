@@ -2,7 +2,7 @@
 # PostgreSQL data container
 #
 
-FROM ubuntu:14.04
+FROM debian:wheezy
 
 # add our user and group first to make sure their IDs get assigned consistently, regardless of whatever dependencies get added
 RUN groupadd -r postgres && useradd -r -g postgres postgres
